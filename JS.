@@ -1,0 +1,6 @@
+let bar = document.querySelector(".sidebar")
+let btn = document.querySelector(".fa-arrow-left")
+let body = document.body
+btn.addEventListener("click", () => {
+    bar.classList.toggle("active")
+})
